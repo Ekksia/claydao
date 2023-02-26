@@ -61,10 +61,10 @@ if (!$cache_loaded) {
 							// PostgreSQL is also supported. Supported values are postgres64, postgres7 and postgres8. Only postgres8 is tested.
 							// SQLite is also supported. Set to sqlite to use. SQLite will not use any database software, only a single file.
 		$cf['KU_DBHOST']          = 'localhost'; // Database hostname. On SQLite this has no effect.
-		$cf['KU_DBDATABASE']      = 'DBNAME'; // Database... database. On SQLite this will be the path to your database file. Secure this file.
-		$cf['KU_DBUSERNAME']      = 'DBUSER1'; // Database username. On SQLite this has no effect.
-		$cf['KU_DBPASSWORD']      = 'DBPASS1'; // Database password. On SQLite this has no effect.
-		$cf['KU_DBPREFIX']        = 'kax'; // Database table prefix
+		$cf['KU_DBDATABASE']      = 'db'; // Database... database. On SQLite this will be the path to your database file. Secure this file.
+		$cf['KU_DBUSERNAME']      = 'DBUSER'; // Database username. On SQLite this has no effect.
+		$cf['KU_DBPASSWORD']      = 'DBPASS'; // Database password. On SQLite this has no effect.
+		$cf['KU_DBPREFIX']        = 'PREFIX_'; // Database table prefix
 		$cf['KU_DBUSEPERSISTENT'] = false; // Use persistent connection to database
 
 	// Imageboard info
